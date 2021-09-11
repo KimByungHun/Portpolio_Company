@@ -25,23 +25,7 @@ a {
         font: bold 22px/1 "arial";
         color: #444; }
     #header .inner .menuWeb #util {
-      position: absolute;
-      top: 20px;
-      right: 20px; }
-      #header .inner .menuWeb #util::after {
-        content: '';
-        display: block;
-        clear: both; }
-      #header .inner .menuWeb #util li {
-        float: left; }
-        #header .inner .menuWeb #util li a {
-          display: block;
-          font: 12px/1 'arial';
-          color: #999;
-          padding: 0 10px;
-          border-right: 1px solid #aaa; }
-        #header .inner .menuWeb #util li:last-child a {
-          border-right: none; }
+      position: absolute; }
     #header .inner .menuWeb #gnb {
       position: absolute;
       bottom: 0px;
@@ -53,9 +37,6 @@ a {
       #header .inner .menuWeb #gnb li {
         float: left; }
         #header .inner .menuWeb #gnb li a {
-          color: #555;
-          display: block;
-          padding: 20px 40px;
-          font: bold 15px/1 "arial"; }
+          color: #555; }
 
 /*# sourceMappingURL=style.css.map */
