@@ -18,6 +18,25 @@
         .menuWeb{
             #util{
                 position: absolute;
+                top: 20px;
+                right: 20px;
+
+                &::after{
+                    content: ''; display: block; clear: both;
+                }
+                li{
+                    float:left; 
+                    a{
+                        display:block; 
+                        font:12px/1 'arial'; 
+                        color:#999; 
+                        padding:0 10px; 
+                        border-right:1px solid #aaa; 
+                    } 
+                    &:last-child a{
+                        border-right:none; 
+                    }
+                 }
             }
             #gnb{
                 position: absolute; bottom: 0px; right: 0px;
@@ -29,6 +48,9 @@
                     float: left;
                     a{
                         color: #555;
+                        display: block;
+                        padding: 20px 40px;
+                        font: bold 15px/1 "arial";
                     }
                 }
             }
